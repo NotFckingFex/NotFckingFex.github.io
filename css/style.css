@@ -1,0 +1,67 @@
+/* This code is written by: Felix Burwitz.
+For licencing, Copyright issues etc. contact me at:
+reinermagdenernst@gmail.com
+this is NOT my business E-Mail - after you contact me i will give it to you.
+Web: https://www.fex.codes
+Discord:  NotFckingFex#6636
+*/
+
+body {
+    background-color: #170042;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0px 0px;
+}
+
+#logo {
+    top: 9px; /* your required value */
+    left: 10;
+    width: 128px;
+    height: 128px;
+    position: fixed;
+    z-index: 1;
+
+}
+
+#colorstrip {
+    width: 100%; height: 10px;
+    position: absolute;
+    right: 0px;
+    top: 64px;
+    border-style: solid;
+    border-color: black;
+    background-color: yellow;
+}
+
+#topright {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    font-size: 25px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #ffffff;
+    text-shadow: 2px 2px #ff0000;
+    font-weight: 400;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.footer {
+    position: fixed;
+    font-size: 12px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: uppercase;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
