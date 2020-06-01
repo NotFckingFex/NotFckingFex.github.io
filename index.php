@@ -1,13 +1,3 @@
-<?php
-/* This code is written by: Felix Burwitz.
-For licencing, Copyright issues etc. contact me at:
-reinermagdenernst@gmail.com
-this is NOT my business E-Mail - after you contact me i will give it to you.
-Web: https://www.fex.codes
-Discord:  NotFckingFex#6636
-*/
-?>
-
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
