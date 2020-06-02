@@ -49,6 +49,8 @@ body {
     text-transform: uppercase;
 }
 
+
+
 .footer {
     position: fixed;
     font-size: 12px;
@@ -64,4 +66,102 @@ body {
     bottom: 5px;
     width: 100%;
     text-align: center;
+}
+
+#vehicleicon {
+    position: fixed;
+    top: 290px; /* your required value */
+    left: 10px;
+    width: 64px;
+    height: 64px;
+}
+
+#vehiclecreate {
+    position: fixed;
+    top: 290px; /* your required value */
+    left: 74px;
+    width: 32px;
+    height: 32px;
+    position: fixed;
+}
+#foldericon {
+    position: fixed;
+    top: 200px; /* your required value */
+    left: 10px;
+    width: 64px;
+    height: 64px;
+    position: fixed;
+}
+
+#foldercreate {
+    position: fixed;
+    top: 200px; /* your required value */
+    left: 74px;
+    width: 32px;
+    height: 32px;
+    position: fixed;
+}
+
+#settingsicon {
+    position: fixed;
+    top: 200px; /* your required value */
+    right: 10px;
+    width: 64px;
+    height: 64px;
+    position: fixed;
+}
+
+
+
+
+
+
+.login-form {
+    width: 340px;
+    margin: 150px auto;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#regi {
+    position: absolute;
+    top: 110px;
+    right: 47%;
+    font-size: 25px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px #ff0000;
+    text-transform: uppercase;
+}
+
+#logintext {
+    position: absolute;
+    top: 110px;
+    right: 48%;
+    font-size: 25px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px #ff0000;
+    text-transform: uppercase;
+}
+.container {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
