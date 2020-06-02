@@ -1,22 +1,67 @@
-<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Polizeicomputer</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+
 </head>
+<!--CSS for a Hover effect--->
+<style>
+
+    #foldericon:hover {
+        opacity: 0.8;
+    }
+    #foldercreate:hover {
+        opacity: 0.8;
+    }
+    #vehicleicon:hover {
+        opacity: 0.8;
+    }
+    #vehiclecreate:hover {
+        opacity: 0.8;
+    }
+    #settingsicon:hover {
+        opacity: 0.8;
+    }
+</style>
+<!-- END -->
 <body>
-<!-- CSS for the look -->
+<!-- Stuff for the look -->
 <div id="topright">
     POLICE COMPUTER V.0.1
 </div>
 <div id="colorstrip"></div>
 <img src="img/logo.png" id="logo" alt="Police Logo"/>
-<!-- END -->
 <div class="footer">
     <p>This is a monitored Federal System</p>
     <p>for authorized users only</p></p>
-    <p>Logged in as: OFFICERNAME</p>
+    <p>Logged in as: OFFICERNAME (DEMO) with Rank: RANG (DEMO)</p>
 </div>
+<!-- END -->
+
+<a href="crud/index.php"><img src="img/foldericon.png" id="foldericon"/></a>
+<a href="crud/create.php"><img src="img/foldercreate.png" id="foldercreate"/></a>
+<a href="vehicle/index.php"><img src="img/vehicleicon.png" id="vehicleicon"/></a>
+<a href="vehicle/create.php"><img src="img/vehiclecreate.png" id="vehiclecreate"/></a>
+<a href="settings/index.php"><img src="img/settingsicon.png" id="settingsicon"/></a>
 
 </body>
 </html>
