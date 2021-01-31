@@ -57,8 +57,7 @@
 
 
     <!-- intro end-->
-    <!-- navbar
-    <header class="header">
+    <header class="header" style="background: lightgrey;">
       <nav class="navbar navbar-expand-lg">
         <div class="container"><a href="#intro" class="navbar-brand link-scroll"><img src="img/logo.png" alt="" class="img-fluid"></a>
           <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
@@ -66,14 +65,14 @@
             <ul class="navbar-nav ml-auto">
               <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Start</a></li>
               <li class="nav-item"><a href="#about" class="nav-link link-scroll">Über mich </a></li>
-              <li class="nav-item"><a href="#portfolio" class="nav-link link-scroll">Portfolio</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link link-scroll">Skills</a></li>
+              <li class="nav-item"><a href="#projekte" class="nav-link link-scroll">Projekte</a></li>
               <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Kontakt</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-  -->
 
     <!-- about-->
     <section id="about" style="background-color: #191919" class="text">
@@ -100,17 +99,13 @@
 
             <h5>Programmiersprachen: </h3>
 
-            <p>(HTML), CSS: </p>
-            <progress id="#" value="50" max="100">  </progress>
+            <p>Python: </p>
+            <progress id="#" value="45" max="100">  </progress>
 
-            <p>PHP: </p>
-            <progress id="#" value="30" max="100">  </progress>
 
             <p>C#: </p>
             <progress id="#" value="25" max="100">  </progress>
 
-            <p>Python: </p>
-            <progress id="#" value="20" max="100">  </progress>
 
             <br>
             </br>
@@ -124,12 +119,27 @@
 
             <p>IntelliJ: </p>
             <progress id="#" value="90" max="100">  </progress>
-
-            <p>Atom: </p>
-            <progress id="#" value="90" max="100">  </progress>
           </div>
           <div class="col-lg-5 mx-auto">
             <p><img src="img/index_laptop.jpg" alt="" class="img-fluid" style="border-radius: 25%;"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="projekte" style="background-color: #191919" class="text">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="heading">Projekte:</h2>
+            <p class="lead">WebScraping mit Daten des Robert-Koch-Instituts.</p>
+            <p>Entwickelt in Python mit den Programmbibliotheken <a href="https://de.wikipedia.org/wiki/Beautiful_Soup"> Beautiful Soup 4</a>, <a href="https://pythonbasics.org/pandas-web-scraping/"> Pandas </a> und <a href="https://de.wikipedia.org/wiki/Selenium">Selenium</a>.</p>
+            <p>Es geht darum, die Daten des <a href="https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html/">RKI's</a> über ein Programm vollautomatisch alle 24h auszulesen, diese Daten werden in einer Datenbank gespeichert und überschrieben. </p>
+            <p>Daraufhin werden die Daten aus der Datenbank, mithilfe von der Programmiersprache PHP, auf einer Webseite angezeigt werden. - der Code wird öffentlich auf meinem <a href="#contact" class="link-scroll"> Github </a>sein. </p>
+          </div>
+          <div class="col-lg-5 mx-auto">
+            <p><img src="img/index_covid.jpg" alt="" class="img-fluid" style="border-radius: 25%;"></p>
           </div>
         </div>
       </div>
