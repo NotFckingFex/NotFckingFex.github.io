@@ -100,7 +100,7 @@ NAVBAR
 *
 */
 nav.navbar {
-  background: #fff;
+  background: #fffff;
   padding-top: 0;
   padding-bottom: 0;
   -webkit-box-shadow: 0 1px 0 #ddd;
@@ -135,7 +135,7 @@ nav.navbar.sticky {
   position: fixed;
   top: 0;
   left: 0;
-  background: #fff;
+  background: lightgrey;
   z-index: 999;
 }
 
